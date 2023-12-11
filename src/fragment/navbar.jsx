@@ -29,16 +29,16 @@ const Navbar = () => {
         </AnchorLink>
       </div>
       <div className={`md:flex gap-x-4 text-white font-playfair ${showMenu ? 'hidden' : 'transition-opacity duration-500 opacity-100  bg-[#bc6d38] h-full w-[300px] fixed right-0 top-0 text-center pt-10  text-2xl z-12'}`}>
-        <p>
+        <p className="hover:text-slate-200 hover:scale-150 transition duration-300 ease-in-out">
           <AnchorLink href="#Home">Home</AnchorLink>
         </p>
-        <p>
+        <p className="hover:text-slate-200 hover:scale-150 transition duration-300 ease-in-out">
           <AnchorLink href="#About">About</AnchorLink>
         </p>
-        <p>
+        <p className="hover:text-slate-200 hover:scale-150 transition duration-300 ease-in-out">
           <AnchorLink href="#Skills">Skills</AnchorLink>
         </p>
-        <p>
+        <p className="hover:text-slate-200 hover:scale-150 transition duration-300 ease-in-out">
           <AnchorLink href="#Project">Project</AnchorLink>
         </p>
       </div>

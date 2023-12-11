@@ -31,7 +31,7 @@ function App() {
       <div className="w-4/6 mx-auto">
         <Line />
       </div>
-      <div className="w-4/6 mx-auto h-full ">
+      <div className="md:w-4/6 mx-auto h-full ">
         <Project />
       </div>
       <div className="bg-black mx-auto   ">

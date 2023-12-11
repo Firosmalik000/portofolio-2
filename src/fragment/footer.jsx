@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const Footer = () => {
   return (
-    <section className="w-4/6 h-[200px] mx-auto items-center flex justify-between   text-white ">
+    <section className="w-4/6 h-[200px] mx-auto items-center md:flex justify-between   text-white ">
       <div className="flex justify-center py-10">
         <Contact />
       </div>

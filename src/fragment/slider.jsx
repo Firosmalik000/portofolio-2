@@ -3,7 +3,7 @@ import project1 from '../assets/project.png';
 
 const Slider = () => {
   return (
-    <section className=" md:flex flex-col-1  w-full mx-auto p-11 gap-4 rounded-xl   bg-[#bc6d38] relative">
+    <section className=" md:flex flex-col-1   md:w-full mx-auto p-11 gap-4 rounded-xl   bg-[#bc6d38] relative">
       <div className="md:mb-0 mb-6">
         <img src={project1} alt="" className="w-[500px] flex-2" />
       </div>
