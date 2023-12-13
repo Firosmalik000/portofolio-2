@@ -75,10 +75,10 @@ const Slider = () => {
             <Projects {...project} />
           </div>
         ))}
-        <div className="absolute top-1/2 left-4 transform -translate-y-1/2">
+        <div className="absolute top-1/2 left-4 transform -translate-y-1/2 hover:bg-slate-300 hover:rounded-full hover:cursor-pointer transition duration-300">
           <BsChevronCompactLeft className="text-white text-3xl cursor-pointer" onClick={prevSlide} />
         </div>
-        <div className="absolute top-1/2 right-4 transform -translate-y-1/2">
+        <div className="absolute top-1/2 right-4 transform -translate-y-1/2 hover:bg-slate-300 hover:rounded-full hover:cursor-pointer transition duration-300">
           <BsChevronCompactRight className="text-white text-3xl cursor-pointer" onClick={nextSlide} />
         </div>
       </div>
