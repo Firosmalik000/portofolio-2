@@ -36,7 +36,7 @@ const Slider = () => {
       src: project1,
       title: 'PT Syahma Berkah Sukses',
       github: 'https://github.com/Firosmalik000/PT-Syahma-Sukses-Berkah',
-      live: 'https://syahma-sukses-berkah.netlify.app/',
+      live: 'https://syahma-suksess-berkah.netlify.app/',
       description: `Adalah salah satu perusahaan rintisan yang bergerak di bidang export briket, dan masih dalam tahap pengembangan dalam bentuk prototype, karena terkendala waktu untuk komunikasi lebih lanjut. Ini merupakan project pertama saya
         untuk ditawarkan secara umum. Karena perusahaan ini milik teman saya sendiri jadi saya menawarkan membuat company profile untuk langkah awal karier saya di bidang Front End Web Developer.`,
     },
