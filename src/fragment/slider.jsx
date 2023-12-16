@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import project1 from '../assets/project.png';
 import project2 from '../assets/2.png';
 import project3 from '../assets/3.png';
+import project4 from '../assets/quran.png';
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 import { RxDotFilled } from 'react-icons/rx';
 
@@ -54,7 +55,13 @@ const Slider = () => {
       live: 'https://shoper-firos.netlify.app/',
       description: `The concluding eduwork assignment developed with the MERN stack features a simple e-commerce system, including authentication, orders, carts, and invoices. Yet to integrate a payment gateway and deploy the backend.`,
     },
-    // Tambahkan proyek lain jika ada
+    {
+      src: project4,
+      title: 'Simple E-Commerce',
+      github: 'https://github.com/Firosmalik000/simple-quran-using-redux',
+      live: 'https://simple-quran-web.netlify.app/',
+      description: `I have developed an e-Quran application utilizing an open API provided by https://equran.id/apidev. For state management, I opted for Redux Toolkit to delve deeper into its functionalities and enhance my understanding.`,
+    },
   ];
 
   const totalSlides = projects.length;
