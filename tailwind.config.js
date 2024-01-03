@@ -13,6 +13,15 @@ module.exports = {
         playfair: ['Playfair Display', 'serif'],
         opensans: ['Open Sans', 'sans-serif'],
       },
+      animation: {
+        slide: 'slide 25s linear infinite',
+      },
+      keyframes: {
+        slide: {
+          '0%,100%': { transform: 'translateX(5%)' },
+          '50%': { transform: 'translateX(-120%)' },
+        },
+      },
     },
   },
   plugins: [],

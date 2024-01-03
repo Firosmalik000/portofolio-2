@@ -6,6 +6,8 @@ import About from './scene/about';
 import Hero from './scene/hero';
 import Skills from './scene/skills';
 import { TbMessage } from 'react-icons/tb';
+import Contact from './component/contact';
+import ContactForm from './fragment/ContactForm';
 
 function App() {
   return (
@@ -33,6 +35,12 @@ function App() {
       </div>
       <div className="md:w-4/6 mx-auto h-full ">
         <Project />
+      </div>
+      <div className="w-4/6 mx-auto">
+        <Line />
+      </div>
+      <div className="md:w-4/6 mx-auto">
+        <ContactForm />
       </div>
       <div className="bg-black mx-auto   ">
         <Footer />

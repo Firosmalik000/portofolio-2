@@ -1,7 +1,6 @@
-import React from 'react';
 import Line from '../component/line';
 import me from '../assets/me.png';
-import cv from '../assets/CV.png';
+import cv from '../assets/CV.pdf';
 import { motion } from 'framer-motion';
 
 const About = () => {

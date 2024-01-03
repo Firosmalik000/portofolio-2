@@ -1,9 +1,10 @@
-import React from 'react';
 import Line from '../component/line';
-import Slider from '../fragment/slider';
+import { projectData } from '../data';
 import { motion } from 'framer-motion';
+import CardProject from '../fragment/CardProject';
 
 const Project = () => {
+  console.log(projectData);
   return (
     <section id="Project" className="py-20 ">
       <motion.div
@@ -30,9 +31,11 @@ const Project = () => {
       >
         <p className="text-center text-white mb-10 ">Ini adalah project yang saya buat, baik sudah selesai maupun dalam progress, dan akan saya perbarui ketika ada project baru yang saya kerjakan.</p>
       </motion.div>
-      <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.5 }} transition={{ delay: 0.5, duration: 0.5 }} variants={{ hidden: { opacity: 0, scale: 0.8 }, visible: { opacity: 1, scale: 1 } }}>
-        <Slider />
-      </motion.div>
+      <div className="flex w-[600%] md:w-[300%] flex-row gap-x-5 animate-slide  ">
+        {projectData.map((item, index) => (
+          <CardProject key={index} {...item} />
+        ))}
+      </div>
     </section>
   );
 };
