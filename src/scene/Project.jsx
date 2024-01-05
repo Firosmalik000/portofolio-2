@@ -32,7 +32,7 @@ const Project = () => {
         <p className="text-center text-white mb-10 ">Ini adalah project yang saya buat, baik sudah selesai maupun dalam progress, dan akan saya perbarui ketika ada project baru yang saya kerjakan.</p>
       </motion.div>
       <div className="mt-12 overflow-x-hidden w-full  relative">
-        <div className="flex gap-8 md:w-full sm:w-[170%] xs:w-[340%] w-[480%] animate-slide ">
+        <div className="flex gap-8 md:w-[300%] sm:w-[170%] xs:w-[340%] w-[480%]  animate-slide ">
           {projectData.map((item, index) => (
             <CardProject key={index} {...item} />
           ))}
