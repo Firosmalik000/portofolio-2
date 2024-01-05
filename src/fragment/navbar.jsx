@@ -23,7 +23,7 @@ const Navbar = () => {
   const classNavItemMobile = 'hover:text-slate-200 hover:scale-150 transition duration-300 ease-in-out text-center text-3xl font-semibold text-white';
 
   return (
-    <section className={`fixed px-[90px] w-full items-center ${sticky ? 'bg-gradient-to-r from-[#bc6d38] to-[#e18a4f] shadow-lg' : 'bg-none'} h-[85px] z-[999] flex justify-between transition-all duration-300 z-200`}>
+    <section className={`fixed px-16 md:px-[90px] w-[100%] items-center ${sticky ? 'bg-gradient-to-r from-[#bc6d38] to-[#e18a4f] shadow-lg' : 'bg-none'} h-[85px] z-[999] flex justify-between transition-all duration-300 z-200`}>
       <div>
         <AnchorLink href="#Home">
           <h1 className="text-white font-playfair font-bold text-3xl">FMA</h1>

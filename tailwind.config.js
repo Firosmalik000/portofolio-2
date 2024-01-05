@@ -22,6 +22,12 @@ module.exports = {
           '50%': { transform: 'translateX(-120%)' },
         },
       },
+      screens: {
+        xs: '550px',
+        md: '850px',
+        xl: '1180px',
+        '2xl': '1280px',
+      },
     },
   },
   plugins: [],
